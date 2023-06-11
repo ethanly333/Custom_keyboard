@@ -377,10 +377,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -471,6 +471,10 @@
     [
       "60ab746b-5f94-4505-97f3-f662747279b1",
       ""
+    ],
+    [
+      "d5f224ff-f922-43d8-81a9-05cf42c5be82",
+      "Sheet: Switch Matrix"
     ]
   ],
   "text_variables": {}
